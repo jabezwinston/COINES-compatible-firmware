@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "../lib/coinesAPI",
+                "../lib/coinesAPI/pc",
+                "../lib/coinesAPI/pc/comm_intf",
+                "../lib/coinesAPI/pc/comm_driver",
+                "../lib/coines_ext"
+            ],
+            "defines": [
+                "PC"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}

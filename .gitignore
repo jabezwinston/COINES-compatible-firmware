@@ -1,0 +1,15 @@
+Debug/
+Release/
+_build/
+.settings/
+*.o
+*.a
+*.d
+*.elf
+*.hex
+*.map
+*.list
+*.exe
+*.bin
+*.uf2
+

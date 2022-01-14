@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "set-shuttle-board.h": "c",
+        "coines.h": "c",
+        "coines_ext.h": "c"
+    }
+}

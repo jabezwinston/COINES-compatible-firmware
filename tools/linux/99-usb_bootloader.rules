@@ -1,0 +1,8 @@
+# RPi Pico Bootloader
+SUBSYSTEM=="usb", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0003", ACTION=="add", MODE="0666"
+
+# STM32 USB DFU ROM Bootloader
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="df11", ACTION=="add", MODE="0666"
+
+# STM32F103 Maple Bootloader
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1eaf", ATTRS{idProduct}=="0003", ACTION=="add", MODE="0666"
